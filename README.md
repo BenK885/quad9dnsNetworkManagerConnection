@@ -1,7 +1,7 @@
 # quad9dnsNetworkManagerConnection
 Network Manager Connection Profile for Quad9 DNS servers and a simple script for installation and activation.
 
-###### NetworkManager connection profile
+## NetworkManager connection profile
 `quad9dns.nmconnection`
 ```shell
 [connection]
@@ -32,7 +32,7 @@ method=auto
 ```
 
 
-###### "Installation & activation script"
+## "Installation & activation script"
 The script will copy the connection profile file to the right location, set permissions, reload connections in NetworkManager and automatically activate the new connection profile.
 
 run via `sudo ./quad9dns.sh`
