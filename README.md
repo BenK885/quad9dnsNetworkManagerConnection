@@ -33,7 +33,10 @@ method=auto
 
 
 ###### "Installation & activation script"
+The script will copy the connection profile file to the right location, set permissions, reload connections in NetworkManager and automatically activate the new connection profile.
+
 run via `sudo ./quad9dns.sh`
+
 `quad9dns.sh`
 ```shell
 cp quad9dns.nmconnection /etc/NetworkManager/system-connections/
