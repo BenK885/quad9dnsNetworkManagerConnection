@@ -1,5 +1,5 @@
 # quad9dnsNetworkManagerConnection
-Network Manager Connection Profile for Quad9 DNS servers and a simple script for installation and activation.
+Network Manager connection profile for Quad9 DNS servers and a simple script for installation and activation.
 
 ## NetworkManager connection profile
 `quad9dns.nmconnection`
