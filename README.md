@@ -33,8 +33,7 @@ method=auto
 
 
 ## "Installation & activation script"
-The script will copy the connection profile file to the right location, set permissions, reload connections in NetworkManager and automatically activate the new connection profile.
-
+The script will copy the connection profile file to the right location, set permissions, reload connections in NetworkManager and automatically activate it.
 run via `sudo ./quad9dns.sh`
 
 `quad9dns.sh`
