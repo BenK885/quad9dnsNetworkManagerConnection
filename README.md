@@ -2,7 +2,6 @@
 Network Manager Connection Profile for Quad9 DNS servers and a simple script for installation.
 
 `quad9dns.nmconnection`
-
 ```shell
 [connection]
 id=quad9dns
@@ -34,7 +33,6 @@ method=auto
 
 
 `quad9dns.sh`
-
 ```shell
 cp quad9dns.nmconnection /etc/NetworkManager/system-connections/
 chown root:root /etc/NetworkManager/system-connections/quad9dns.nmconnection
