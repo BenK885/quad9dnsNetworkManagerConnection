@@ -43,3 +43,14 @@ chmod 600 /etc/NetworkManager/system-connections/quad9dns.nmconnection
 nmcli connection reload
 nmcli connection up quad9dns
 ```
+
+## Or even simpler...
+...just run the other script ;)
+
+´addQuad9DNS.sh`
+
+```shell
+wget wget https://raw.githubusercontent.com/BenK885/quad9dnsNetworkManagerConnection/main/addQuad9DNS.sh
+chmod +x addQuad9DNS.sh
+sudo ./addQuad9DNS.sh
+```
