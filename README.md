@@ -44,6 +44,7 @@ nmcli connection reload
 nmcli connection up quad9dns
 ```
 
+
 ## Or even simpler...
 ...just download and run the other script ;)
 
