@@ -8,7 +8,7 @@ ipv6_dns1="2620:fe::fe"
 ipv6_dns2="2620:fe::9"
 
 # Create the new connection profile with nmcli
-nmcli con add con-name "$connection_name" type ethernet ifname eth0
+nmcli con add con-name "$connection_name" type generic
 
 # Add the IPv4 DNS servers to the connection profile
 nmcli con mod "$connection_name" ipv4.dns "$ipv4_dns1 $ipv4_dns2"
