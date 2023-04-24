@@ -1,5 +1,5 @@
 [connection]
-id=quad9dns
+id=Quad9DNS
 uuid=301c8c82-a01e-411f-a366-d5f3d9a758f1
 type=ethernet
 autoconnect=false
