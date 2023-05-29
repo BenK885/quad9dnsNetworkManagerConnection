@@ -49,7 +49,7 @@ nmcli connection up quad9dns
 ...just download and run the other script ;)
 
 ```shell
-wget wget https://raw.githubusercontent.com/BenK885/quad9dnsNetworkManagerConnection/main/addQuad9DNS.sh
+wget https://raw.githubusercontent.com/BenK885/quad9dnsNetworkManagerConnection/main/addQuad9DNS.sh
 chmod +x addQuad9DNS.sh
 sudo ./addQuad9DNS.sh
 ```
